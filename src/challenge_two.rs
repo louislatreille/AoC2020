@@ -21,5 +21,5 @@ fn find_2020_numbers(numbers: &Vec<u32>) -> (&u32, &u32, &u32) {
 		}
 	}
 
-	panic!("Didn't find a pair of numbers that sum up to 2020...");
+	panic!("Didn't find any three numbers that sum up to 2020...");
 }
