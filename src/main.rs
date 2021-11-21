@@ -5,6 +5,7 @@ mod challenge_three;
 mod challenge_four;
 mod challenge_five;
 mod day_four;
+mod day_five;
 
 fn main() {
 	let args: Vec<String> = env::args().collect();
@@ -22,6 +23,7 @@ fn main() {
 		4 => challenge_four::entry,
 		5 => challenge_five::entry,
 		6 => day_four::entry,
+		7 => day_five::entry,
 		_ => panic!("Unknown/unimplemented challenge number")
 	};
 
